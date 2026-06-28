@@ -13,6 +13,7 @@ This pipeline standardizes and enriches the data to
 produce accurate monthly payroll reports.
 
 ## Pipeline Architecture
+![ETL Pipeline](screenshots/pipeline_diagram.png)
 RAW → STAGING → WAREHOUSE → VIEWS
 
 ## Tables
@@ -52,6 +53,23 @@ RAW → STAGING → WAREHOUSE → VIEWS
 - Aggregate functions: SUM, AVG, COUNT
 - Date functions: STR_TO_DATE, TIMESTAMPDIFF
 - String functions: TRIM, CONCAT, SUBSTRING
+
+## 📊 Results & Screenshots
+
+### Warehouse Table (20 Employees)
+![Warehouse Table](screenshots/01_warehouse_table.png)
+
+### Department Payroll Summary
+![Payroll Summary](screenshots/02_payroll_summary_view.png)
+
+### Staff Profiles View
+![Staff Profiles](screenshots/03_staff_profiles_view.png)
+
+### Top 3 Highest Paid Departments
+![Top Departments](screenshots/04_top_departments.png)
+
+### Most Experienced Staff
+![Experienced Staff](screenshots/05_experienced_staff.png)
 
 ## Author
 Alabi Timilehin — Data Analyst
