@@ -14,6 +14,7 @@ produce accurate monthly payroll reports.
 
 ## Pipeline Architecture
 ![ETL Pipeline](screenshots/pipeline_diagram.png)
+
 RAW → STAGING → WAREHOUSE → VIEWS
 
 ## Tables
