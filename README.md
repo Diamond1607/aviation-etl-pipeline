@@ -13,7 +13,7 @@ This pipeline standardizes and enriches the data to
 produce accurate monthly payroll reports.
 
 ## Pipeline Architecture
-![ETL Pipeline](screenshots/pipeline_diagram.png)
+![ETL Pipeline](screenshots/aviation_etl_pipeline_diagram.png)
 
 RAW → STAGING → WAREHOUSE → VIEWS
 
